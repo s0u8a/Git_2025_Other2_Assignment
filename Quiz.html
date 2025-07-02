@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>Quiz</title>
-	</head>
-	<body>
-		<script src="Quiz.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <title>クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>四択クイズ</h1>
+  <div id="quiz-container">
+    <p id="question">モンスターハンターワイルズに登場したモンスターはどれ</p>
+    <ul id="choices">
+      <li><button class="choice">ゼノジーバ</button></li>
+      <li><button class="choice">イヤンクック</button></li>
+      <li><button class="choice">ショウグンキザミ</button></li>
+      <li><button class="choice">ジンオウガ</button></li>
+    </ul>
+    <p id="result"></p>
+  </div>
+  <script src="Quiz.js"></script>
+</body>
 </html>
